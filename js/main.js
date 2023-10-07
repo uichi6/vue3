@@ -1,7 +1,7 @@
 const app = Vue.createApp({
   data: () => ({
     items: null,
-    Keyboard: '',
+    keyword: '',
     message: ''
   }),
   watch: {
